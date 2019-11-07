@@ -1,0 +1,5 @@
+#configuracoes de IP
+ifconfig eth0 10.2.2.10/24
+
+#configuracoes de ROTEAMENTO
+route add default gw 10.2.2.254
